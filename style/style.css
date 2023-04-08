@@ -97,13 +97,12 @@ a.flex {
   padding: 20px;
 }
 
-.offers-wrapper {
+.color-wrapper {
   background-color: #efefef;
 }
 
-h2 {
-  padding-top: 80px;
-  padding-bottom: 38px;
+.h2 {
+  margin-bottom: 38px;
 }
 
 .card-wrapper {
@@ -258,4 +257,24 @@ img {
 .pink-cards-button:hover {
   color: #000000;
   background-color: #ffffff;
+}
+
+.space {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.impuls-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+}
+
+.impuls-list-item {
+  padding: 35px 60px;
+  background-color: #ffffff;
+}
+
+.space-up {
+  padding-top: 100px;
 }
